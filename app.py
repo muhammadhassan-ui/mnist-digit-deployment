@@ -4,7 +4,7 @@ from PIL import Image, ImageOps
 from tensorflow.keras.models import load_model
 
 # ---------- CONFIG ----------
-MODEL_PATH = r"C:\Users\Lapzone.pk\OneDrive\Desktop\Mnist deployment\mnist_model.keras"   # apne trained model ka naam/path yahan set karo
+MODEL_PATH ="mnist_model.keras""   # apne trained model ka naam/path yahan set karo
 
 # ---------- LOAD MODEL (cached so it loads only once) ----------
 @st.cache_resource
